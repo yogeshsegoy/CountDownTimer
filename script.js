@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded',function(){
-  let interval;
-  
+  let interval;  
   function startCountdown() {
     const startInput = document.getElementById("startDate").value;
     const endInput = document.getElementById("countdownDate").value;
